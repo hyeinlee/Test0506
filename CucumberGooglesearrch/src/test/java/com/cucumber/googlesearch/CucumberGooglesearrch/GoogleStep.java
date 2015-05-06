@@ -32,7 +32,7 @@ public class GoogleStep {
     	driver.get("https://www.google.co.kr/");
     	
     }
-
+/*
     @When("^enter \"(.*?)\" text into search field$")
     public void User_enters_text_into_field(String text) {
         driver.findElement(By.id("gbqfq")).sendKeys(text);
@@ -63,7 +63,7 @@ public class GoogleStep {
         WebElement message = driver.findElement(By.xpath("//*[@id='rso']/li[1]/div/h3/a"));
         Assert.assertTrue(message.getText().contains(msg));
        }           
-    
+    */
     @After
     public void tearDown() {
           driver.close();
